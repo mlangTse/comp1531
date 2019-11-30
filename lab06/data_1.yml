@@ -1,0 +1,16 @@
+channels:
+- id: 3
+  messages:
+  - id: 1
+    message: Hello world
+    user_id: 5
+  - id: 2
+    message: Its me
+    user_id: 5
+  - id: 3
+    message: What are you doing??
+    user_id: 7
+  name: Channel 1
+- id: 4
+  messages: []
+  name: Channel 2

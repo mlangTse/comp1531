@@ -1,0 +1,23 @@
+---
+keyData:
+  JWT_SECRET: wfasduf98ajs98d5r342m5l
+  HASH_SALT: 8s9982345798237948
+users:
+- id: 3
+  email: z1234567@unsw.edu.au
+  firstName: Micky
+  lastName: Mouse
+  handle: mickymouse
+  sessions:
+  - SDJKFNSDJf
+  - 23849887es
+  - sd78fy8shf
+- id: 4
+  email: z9876543@unsw.edu.au
+  firstName: Micky
+  lastName: Mouse
+  handle: mickymouse1
+  sessions:
+  - 89sF*(sdf8
+  - sdf89sdjff
+  - '4903509455'

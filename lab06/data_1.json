@@ -1,0 +1,31 @@
+{
+    "channels": [
+      {
+        "id" : 3,
+        "name" : "Channel 1",
+        "messages" : [
+          {
+            "id" : 1,
+            "user_id" : 5,
+            "message" : "Hello world"
+          },
+          {
+            "id" : 2,
+            "user_id" : 5,
+            "message" : "Its me"
+          },
+          {
+            "id" : 3,
+            "user_id" : 7,
+            "message" : "What are you doing??"
+          }
+        ]
+      },
+      {
+        "id" : 4,
+        "name" : "Channel 2",
+        "messages" : []
+      }
+    ]
+  }
+  
