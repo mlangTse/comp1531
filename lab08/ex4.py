@@ -43,3 +43,9 @@ class fruit():
 
     def check_price(self):
         return self.price
+    
+    def update_quantity(self, new_quantities):
+        self.quantities = new_quantities
+        
+    def update_price(self, new_price):
+        self.price = new_price
