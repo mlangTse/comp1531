@@ -1,0 +1,4 @@
+#!/bin/sh
+rm -r prebundle
+npm run build
+mv build prebundle

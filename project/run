@@ -1,0 +1,24 @@
+#!/bin/bash
+
+set -m
+
+port_b=5001
+while [[ `netstat -taln | egrep $port_b` != "" ]]
+do
+  echo "Failed on port $port_b, trying another"
+  port_b=$((port_b + 1))
+done
+
+port_f=8001
+while [[ `netstat -taln | egrep $port_f` != "" ]]
+do
+  echo "Failed on port $port_f, trying another"
+  port_f=$((port_f + 1))
+done
+
+echo "========== Running frontend on port $port_f =============="
+echo "========== Running backend on port $port_b =============="
+./system_utils/run_front.sh $port_b $port_f &
+sleep 0.1
+./system_utils/run_back.sh $port_b
+kill %1
